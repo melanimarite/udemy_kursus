@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--title tuleb lehevaate üles, otseselt seda leheküljel pole-->
+    <title>Testing HTML</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js.js"></script>
+</head>
+    
+   
+    
+<body>
+<div id="wrapper">
+<header>
+    <h1>INDEX PAGE</h1> 
+</header>
+    <nav class="navbar"> 
+    <ul>
+        <li><a href="index.html" target="_parent">Home</a></li>
+        <li><a href="about.html" target="_parent">About</a></li>
+        <li><a href="contact.html" target="_parent">Contact</a></li>
+        <li><a href="https://www.google.ca"
+           target="_blank">Google</a></li>
+    </ul>
+ </nav> 
+    <iframe src="nav.html" name="navframe"></iframe>
+    <section id="main">
+        <div>This is new div content <img src="https://placehold.co/550x150/png" alt="placeholder image" class="right aboutimg">end of div</div>
+        
+        <div>This is new div content <span class="green">content allows you to make grouping without affecting the look of the output</span> end of div</div>
+        
+        
+        
+        <!--<nav class="navbar">     
+        <ul>  tavaline list, mille sees veel üks list
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <!--<ul><li>one</li><li>two</li></ul> </li> 
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="https://www.google.ca"
+           target="_blank">Google</a></li>
+        </ul>
+            <img src="https://placehold.co/550x150/png" alt="placeholder image">
+    </nav> -->
+</section>
+    
+    
+<div>
+<section> 
+        <!-- <li><a href="#moreinfo">More</a></li>
+            </ul> -->
+        <!-- numbriline list
+        <ol type="I" start="5"> <!-- saab valida, millist nr süst kasutatakse. lisaks saab valida, mis nr-st alates nummerdatakse
+        <li>Apelsin</li>
+        <li>Arbuus</li>
+        <li>Mango</li>
+        </ol>
+        -->
+</section>
+    
+<aside id="sidebar">
+    <dl>
+        <dt>First set</dt>
+        <dd>item 1</dd>
+        <dd>item 2</dd>    
+        <dd>item 3</dd>  
+        
+        <dt>Second set</dt>
+        <dd>item 1</dd>
+        <dd>item 2</dd>    
+        <dd>item 3</dd> 
+    </dl>
+</aside>
+    </div>
+
+<footer class="clear" id="footer">
+    company copyright info (c) 2017
+    </footer> </div>
+    <!--
+<p title="opening text" style="color: lawngreen">Minu Cheatsheet</p>
+    <p style="background-color: lightcoral">Hello world</p>
+<pre style="background-color: lightgray">Teistsugune tekst</pre>
+<div class="erinevadtekstid">
+<small>Hello world small</small><br>
+<mark>Hello world mark</mark><br>
+<del>Hello world delete</del>
+    Hello<sub>sub e all</sub> World <br>
+    Hello<sup>sub e yleval</sup> World <br>
+    Hello <b>bolded</b> world <br>
+    Hello <i>italic</i> world
+    Hello <strike>strike</strike> world <br>
+    Hello <em>em</em> world <br>
+    Hello <strong>strong</strong> world <br> 
+    Hello <q>quoted</q> world <br>
+    Hello <cite>cite</cite> world <br>
+    Hello <code>code</code> world <br>
+    Hello <acronym>acronym</acronym> world 
+    </div>
+    <br> -->
+    
+    <div id="highlight">Suvaline tekst, millel <span>mingipärast eriti pole tähendust </span> aga see lihtsalt on siin, kuna mul on vaja midagi pikemat, hahahahahahahahaaaaa</div>
+    
+    <div class="blueee">Suvaline tekst, millel <span>mingipärast eriti pole tähendust </span> aga see lihtsalt on siin, kuna mul on vaja midagi pikemat, hahahahahahahahaaaaa</div>
+    
+    <div class="labipaistev">Suvaline tekst, millel <span>mingipärast eriti pole tähendust </span> aga see lihtsalt on siin, kuna mul on vaja midagi pikemat, hahahahahahahahaaaaa. See on punast värvi ning taustaks pooleldi läbipaistev sinine</div>
+    
+    <div class="pildigataust">Suvaline tekst, millel <span>mingipärast eriti pole tähendust </span> aga see lihtsalt on siin, kuna mul on vaja midagi pikemat, hahahahahahahahaaaaa. Selle taust on pildiga, juhhhuuuuu</div>
+    <br>
+    <div class="ruut">Mingi ruudukene</div>
+    <br>
+    <div class="border">Suvaline tekst, millel <span>mingipärast eriti pole tähendust </span> aga see lihtsalt on siin, kuna mul on vaja midagi pikemat. Sellele lisasin borderi</div>
+    <br>
+    
+    <div class="margin">Suvaline tekst, millel <span>mingipärast eriti pole tähendust </span> aga see lihtsalt on siin, kuna mul on vaja midagi pikemat. Sellele lisasin margini</div>
+    <br>
+    
+    <div class="padding">Suvaline tekst, millel <span>mingipärast eriti pole tähendust </span> aga see lihtsalt on siin, kuna mul on vaja midagi pikemat. Sellele lisasin paddingu</div>
+    <br>
+    <h2 id="moreinfo">More information</h2>
+    <div>This is new div content <span class="green">content allows you to make grouping without affecting the look of the output</span> end of div</div>
+    <div>This is new div content <span>content allows you to make grouping without affecting the look of the output</span> end of div</div>
+</body>
+</html>
